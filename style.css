@@ -3,8 +3,12 @@ body {
   font-family: Arial, sans-serif;
   color: white;
   background-color: black;
-  background-image: url("images/achtergrond1.jpg");
+}
+
+.voorpagina {
+  background-image: url("nightcity.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -16,10 +20,7 @@ p  { font-size: 16px; }
 #kop {
   text-align: center;
   padding: 60px 20px;
-  background-color: #111;
-  background-image: url("images/achtergrond2.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #titel { cursor: pointer; }
